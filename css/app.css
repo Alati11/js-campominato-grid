@@ -5,12 +5,12 @@
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 680px;
     margin: 0 auto;
 }
 
 .section {
-    padding: 80px 0;
+    padding: 15px 0;
 }
 
 .grid {
@@ -27,6 +27,23 @@
 	align-items: center;
 }
 
-.bg-green {
-	background-color: chartreuse;
+.bg-blue {
+	background-color:blue;
+}
+
+.title { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.button { 
+    font-size: 50px;
+    border-radius: 10%;
+    border-color: currentColor;
+    background-color: green;
+
 }
